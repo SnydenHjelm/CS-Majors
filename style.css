@@ -35,6 +35,7 @@ header img {
 header h1 {
     font-family: Head;
     font-size: 40px;
+    margin: 0;
 }
 
 #lists {
@@ -80,6 +81,7 @@ main {
 
 h1 {
     font-family: Head;
+    margin: 0;
 }
 
 .major {
