@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    --cs2-blue: #273a7e;
+    --cs2-yellow: #fbac1b;
+    background-color: var(--cs2-yellow);
+}
+
+@font-face {
+    font-family: Head;
+    src: url(fonts/Dhurjati-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bread;
+    src: url(fonts/Lunasima-Regular.ttf);
+}
+
+header {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    height: 200px;
+}
+
+header h1 {
+    font-family: Head;
+    font-size: 40px;
+}
+
+#lists {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #d68f0a;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.li {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.list-flex {
+    display: flex;
+    justify-content: center;
+}
+
+#lists h2 {
+    font-family: Head;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+
+ol, ul {
+    font-family: Bread;
+}
+
+main {
+    max-width: 1500px;
+    margin: 100px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    font-family: Head;
+}
+
+.major {
+    border: var(--cs2-blue) solid 2px;
+    background-color: var(--cs2-blue);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--cs2-yellow);
+}
+
+.major-logo, .team-1, .team-2 {
+    height: 150px;
+    width: 150px;
+}
+
+.major div img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.info {
+    font-family: Bread;
+    align-self: center;
+    font-size: 16px;
+}
+
+.result {
+    font-family: Head;
+    align-self: center;
+    justify-self: center;
+    font-size: 35px;
+    margin: 0;
+}
+
+.lineup {
+    align-self: center;
+}
