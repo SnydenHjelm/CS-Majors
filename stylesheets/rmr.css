@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: var(--cs2-blue);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: var(--cs2-yellow);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Bread;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #0e2474;
+}
+
+#current {
+    text-decoration: underline;
+    background-color: #0e2474;
+}
+
+.rmr-div {
+    max-width: 800px;
+    background-color: var(--cs2-blue);
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.rmr-div img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    justify-self: center;
+}
+
+.head-text {
+    margin: 2px 0px;
+    color: white;
+    font-family: Head;
+    font-weight: 300;
+}

@@ -124,3 +124,20 @@ h1 {
 .lineup {
     align-self: center;
 }
+
+#shanghai {
+    font-family: Bread;
+    font-size: 19px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: var(--cs2-blue);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+#shanghai:hover {
+    background-color: #0e2474;
+}
+
