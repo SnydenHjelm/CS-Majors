@@ -1,0 +1,69 @@
+.round1-2 {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(8, 1fr);
+    background-color: var(--cs2-blue);
+    height: 200px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: Head;
+    margin: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 350;
+}
+
+span {
+    font-family: Bread;
+}
+
+.eight-matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: solid 1px var(--cs2-yellow);
+}
+
+.eight-matches img {
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.result {
+    color: white;
+    font-family: Bread;
+    font-size: 25px;
+}
+
+#round3 {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(8, 1fr);
+    background-color: var(--cs2-blue);
+    height: 200px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 10px auto;
+}
+
+#round4 {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(6, 1fr);
+    background-color: var(--cs2-blue);
+    height: 200px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 10px auto;
+}
+
+#round5 {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    background-color: var(--cs2-blue);
+    height: 200px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 10px auto;
+}
