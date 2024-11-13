@@ -12,17 +12,22 @@ const eubTeams = 7;
 //Teams
 const tbd = `<img title="To be determined" src="images/question.png">`;
 const rareAtom = `<img title="Rare Atom" src="images/rare-atom.png">`;
-const theMongolz = `<img title="The MongolZ" src="images/mongolz.png">`
+const theMongolz = `<img title="The MongolZ" src="images/mongolz.png">`;
+const flyQuest = `<img title="FlyQuest" src="images/flyq.png">`;
+const wildcard = `<img title="Wildcard" src="images/wildcard.png">`;
+const mibr = `<img title="MIBR" src="images/mibr.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
 asiaRMR.innerHTML += theMongolz;
 asiaRMR.innerHTML += rareAtom;
-asiaRMR.innerHTML += tbd;
+asiaRMR.innerHTML += flyQuest;
 
 nasaRMR.style.display = "grid";
 nasaRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
-for (i=0; i<nasaTeams; i++) {
+nasaRMR.innerHTML += wildcard;
+nasaRMR.innerHTML += mibr;
+for (i=0; i<nasaTeams - 2 ; i++) {
     nasaRMR.innerHTML += tbd;
 }
 
