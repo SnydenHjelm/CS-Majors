@@ -17,6 +17,8 @@ const flyQuest = `<img title="FlyQuest" src="images/flyq.png">`;
 const wildcard = `<img title="Wildcard" src="images/wildcard.png">`;
 const mibr = `<img title="MIBR" src="images/mibr.png">`;
 const pain = `<img title="paiN Gaming" src="images/pain.png">`;
+const complexity = `<img title="Complexity" src="images/Complexity.png">`;
+const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -29,7 +31,9 @@ nasaRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
 nasaRMR.innerHTML += wildcard;
 nasaRMR.innerHTML += mibr;
 nasaRMR.innerHTML += pain;
-for (i=0; i<nasaTeams - 3; i++) {
+nasaRMR.innerHTML += complexity;
+nasaRMR.innerHTML += liquid;
+for (i=0; i<nasaTeams - 5; i++) {
     nasaRMR.innerHTML += tbd;
 }
 
