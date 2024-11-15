@@ -19,6 +19,8 @@ const mibr = `<img title="MIBR" src="images/mibr.png">`;
 const pain = `<img title="paiN Gaming" src="images/pain.png">`;
 const complexity = `<img title="Complexity" src="images/Complexity.png">`;
 const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
+const imperial = `<img title="Imperial" src="images/imperial.png">`;
+const furia = `<img title="FURIA" src="images/Furia.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -33,9 +35,9 @@ nasaRMR.innerHTML += mibr;
 nasaRMR.innerHTML += pain;
 nasaRMR.innerHTML += complexity;
 nasaRMR.innerHTML += liquid;
-for (i=0; i<nasaTeams - 5; i++) {
-    nasaRMR.innerHTML += tbd;
-}
+nasaRMR.innerHTML += imperial;
+nasaRMR.innerHTML += furia;
+
 
 euaRMR.style.display = "grid";
 euaRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
