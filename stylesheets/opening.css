@@ -67,3 +67,13 @@ span {
     max-width: 1500px;
     margin: 10px auto;
 }
+
+#qualied {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: var(--cs2-blue);
+    height: 200px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 10px auto;
+}
