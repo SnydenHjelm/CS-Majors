@@ -21,6 +21,8 @@ const complexity = `<img title="Complexity" src="images/Complexity.png">`;
 const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
 const imperial = `<img title="Imperial" src="images/imperial.png">`;
 const furia = `<img title="FURIA" src="images/Furia.png">`;
+const mouz = `<img title="MOUZ" src="images/mouz.png">`;
+const vitality = `<img title="Vitality" src="images/vitality.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -41,7 +43,9 @@ nasaRMR.innerHTML += furia;
 
 euaRMR.style.display = "grid";
 euaRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
-for (i=0; i<euaTeams; i++) {
+euaRMR.innerHTML += mouz;
+euaRMR.innerHTML += vitality;
+for (i=0; i<euaTeams -2; i++) {
     euaRMR.innerHTML += tbd;
 }
 

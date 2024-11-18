@@ -49,6 +49,13 @@ const theMongolz = `<img title="The MongolZ" src="images/mongolz.png">`;
 const flyQuest = `<img title="FlyQuest" src="images/flyq.png">`;
 const wildcard = `<img title="Wildcard" src="images/wildcard.png">`;
 const mibr = `<img title="MIBR" src="images/mibr.png">`;
+const pain = `<img title="paiN Gaming" src="images/pain.png">`;
+const complexity = `<img title="Complexity" src="images/Complexity.png">`;
+const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
+const imperial = `<img title="Imperial" src="images/imperial.png">`;
+const furia = `<img title="FURIA" src="images/Furia.png">`;
+const mouz = `<img title="MOUZ" src="images/mouz.png">`;
+const vitality = `<img title="Vitality" src="images/vitality.png">`;
 
 for (i=0; i<roundOneArray.length; i++) {
     roundOneArray[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
