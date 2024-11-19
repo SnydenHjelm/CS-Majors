@@ -23,6 +23,9 @@ const imperial = `<img title="Imperial" src="images/imperial.png">`;
 const furia = `<img title="FURIA" src="images/Furia.png">`;
 const mouz = `<img title="MOUZ" src="images/mouz.png">`;
 const vitality = `<img title="Vitality" src="images/vitality.png">`;
+const navi = `<img title="Natus Vincere" src="images/natus.png">`;
+const cloud9 = `<img title="Cloud9" src="images/cloud9.png">`;
+const faze = `<img title="FaZe Clan" src="images/faze.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -45,7 +48,10 @@ euaRMR.style.display = "grid";
 euaRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
 euaRMR.innerHTML += mouz;
 euaRMR.innerHTML += vitality;
-for (i=0; i<euaTeams -2; i++) {
+euaRMR.innerHTML += navi;
+euaRMR.innerHTML += faze;
+euaRMR.innerHTML += cloud9;
+for (i=0; i<euaTeams -5; i++) {
     euaRMR.innerHTML += tbd;
 }
 
