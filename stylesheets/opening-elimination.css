@@ -72,8 +72,8 @@ span {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     background-color: var(--cs2-blue);
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
-    max-width: 1500px;
+    max-width: 800px;
     margin: 10px auto;
 }
