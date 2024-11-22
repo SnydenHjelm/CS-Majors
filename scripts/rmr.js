@@ -22,7 +22,9 @@ const navi = `<img title="Natus Vincere" src="images/natus.png">`;
 const cloud9 = `<img title="Cloud9" src="images/cloud9.png">`;
 const faze = `<img title="FaZe Clan" src="images/faze.png">`;
 const fnatic = `<img title="fnatic" src="images/fnaticNew.png">`;
-const gamerLegion = `<img title="FaZe Clan" src="images/GamerLegion.png">`;
+const gamerLegion = `<img title="GamerLegion" src="images/GamerLegion.png">`;
+const big = `<img title="BIG Clan" src="images/bigclan.png">`;
+const threedmax = `<img title="3DMAX" src="images/3dmax.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -48,7 +50,7 @@ for (let teams of euaTeams) {
 
 eubRMR.style.display = "grid";
 eubRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
-const eubTeams = [tbd, tbd, tbd, tbd, tbd, tbd, tbd];
+const eubTeams = [big, threedmax, tbd, tbd, tbd, tbd, tbd];
 for (let teams of eubTeams) {
     eubRMR.innerHTML += teams;
 }

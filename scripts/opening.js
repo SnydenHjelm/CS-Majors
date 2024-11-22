@@ -60,7 +60,7 @@ const navi = `<img title="Natus Vincere" src="images/natus.png">`;
 const cloud9 = `<img title="Cloud9" src="images/cloud9.png">`;
 const faze = `<img title="FaZe Clan" src="images/faze.png">`;
 const fnatic = `<img title="fnatic" src="images/fnaticNew.png">`;
-const gamerLegion = `<img title="FaZe Clan" src="images/GamerLegion.png">`;
+const gamerLegion = `<img title="GamerLegion" src="images/GamerLegion.png">`;
 
 for (i=0; i<roundOneArray.length; i++) {
     roundOneArray[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
