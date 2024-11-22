@@ -1,0 +1,99 @@
+#bracket {
+    background-color: var(--cs2-blue);
+    margin: auto;
+    max-width: 1200px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: Head;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+#quarter-finals {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+}
+
+.playoff-games {
+    background-color: var(--cs2-yellow);
+    margin: 5px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.playoff-games img {
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.playoff-games h3 {
+    justify-self: center;
+    align-self: center;
+    font-family: Bread;
+    font-size: 25px;
+    margin: 0;
+}
+
+#semi-finals {
+    display: grid;
+    grid-template: 1fr 2fr 1fr 2fr 1fr / 1fr;
+}
+
+#s-final-one {
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+#s-final-two {
+    grid-area: 4 / 1 / 4 / 1;
+}
+
+#grand-final {
+    display: grid;
+    grid-template: 1fr 1fr 2fr 1fr 1fr / 1fr;
+}
+
+#g-final {
+    grid-area: 3 / 1 / 3 / 1;
+}
+
+
+
+#mvp, #champ {
+    margin: 20px auto;
+    background-color: var(--cs2-blue);
+    max-width: 500px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 80px 80px 2fr;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+#mvp img, #champ img {
+    height: 80px;
+    justify-self: center;
+    align-self: center;
+    margin-left: 50px;
+}
+
+#mvp h3, #champ h3 {
+    justify-self: center;
+    align-self: center;
+    font-family: Bread;
+    font-size: 23px;
+    margin: 0;
+    color: var(--cs2-yellow);
+}
