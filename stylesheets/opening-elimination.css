@@ -20,13 +20,13 @@ span {
     font-family: Bread;
 }
 
-.eight-matches {
+.all-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: solid 1px var(--cs2-yellow);
 }
 
-.eight-matches img {
+.all-matches img {
     height: 50px;
     justify-self: center;
     align-self: center;
