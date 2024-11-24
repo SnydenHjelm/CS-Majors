@@ -27,6 +27,8 @@ const threedmax = `<img title="3DMAX" src="images/3dmax.png">`;
 const virtusPro = `<img title="Virtus.pro" src="images/vp.png">`;
 const heroic = `<img title="HEROIC" src="images/heroicNew.png">`;
 const g2 = `<img title="G2 Esports" src="images/g2.png">`;
+const passionUA = `<img title="Passion UA" src="images/passion.png">`;
+const spirit = `<img title="Team Spirit" src="images/spirit.png">`;
 
 for (i=0; i<roundOneMatches.length; i++) {
     roundOneMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;

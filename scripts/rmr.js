@@ -28,6 +28,8 @@ const threedmax = `<img title="3DMAX" src="images/3dmax.png">`;
 const virtusPro = `<img title="Virtus.pro" src="images/vp.png">`;
 const heroic = `<img title="HEROIC" src="images/heroicNew.png">`;
 const g2 = `<img title="G2 Esports" src="images/g2.png">`;
+const passionUA = `<img title="Passion UA" src="images/passion.png">`;
+const spirit = `<img title="Team Spirit" src="images/spirit.png">`;
 
 asiaRMR.style.display = "grid";
 asiaRMR.style.gridTemplateColumns = "repeat(3, 1fr)";
@@ -53,7 +55,7 @@ for (let teams of euaTeams) {
 
 eubRMR.style.display = "grid";
 eubRMR.style.gridTemplateColumns = "repeat(7, 1fr)";
-const eubTeams = [big, threedmax, virtusPro, heroic, g2, tbd, tbd];
+const eubTeams = [big, threedmax, virtusPro, heroic, g2, passionUA, spirit];
 for (let teams of eubTeams) {
     eubRMR.innerHTML += teams;
 }
