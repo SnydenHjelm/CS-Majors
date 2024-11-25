@@ -15,20 +15,12 @@ const complexity = `<img title="Complexity" src="images/Complexity.png">`;
 const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
 const imperial = `<img title="Imperial" src="images/imperial.png">`;
 const furia = `<img title="FURIA" src="images/Furia.png">`;
-const mouz = `<img title="MOUZ" src="images/mouz.png">`;
-const vitality = `<img title="Vitality" src="images/vitality.png">`;
-const navi = `<img title="Natus Vincere" src="images/natus.png">`;
 const cloud9 = `<img title="Cloud9" src="images/cloud9.png">`;
-const faze = `<img title="FaZe Clan" src="images/faze.png">`;
 const fnatic = `<img title="fnatic" src="images/fnaticNew.png">`;
 const gamerLegion = `<img title="GamerLegion" src="images/GamerLegion.png">`;
 const big = `<img title="BIG Clan" src="images/bigclan.png">`;
-const threedmax = `<img title="3DMAX" src="images/3dmax.png">`;
 const virtusPro = `<img title="Virtus.pro" src="images/vp.png">`;
-const heroic = `<img title="HEROIC" src="images/heroicNew.png">`;
-const g2 = `<img title="G2 Esports" src="images/g2.png">`;
 const passionUA = `<img title="Passion UA" src="images/passion.png">`;
-const spirit = `<img title="Team Spirit" src="images/spirit.png">`;
 
 for (i=0; i<roundOneMatches.length; i++) {
     roundOneMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
