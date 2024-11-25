@@ -22,9 +22,14 @@ const big = `<img title="BIG Clan" src="images/bigclan.png">`;
 const virtusPro = `<img title="Virtus.pro" src="images/vp.png">`;
 const passionUA = `<img title="Passion UA" src="images/passion.png">`;
 
-for (i=0; i<roundOneMatches.length; i++) {
-    roundOneMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
-}
+roundOneMatches[0].innerHTML += `${furia}<p class="result">TBD</p>${gamerLegion}`;
+roundOneMatches[1].innerHTML += `${virtusPro}<p class="result">TBD</p>${mibr}`;
+roundOneMatches[2].innerHTML += `${liquid}<p class="result">TBD</p>${cloud9}`;
+roundOneMatches[3].innerHTML += `${complexity}<p class="result">TBD</p>${flyQuest}`;
+roundOneMatches[4].innerHTML += `${big}<p class="result">TBD</p>${passionUA}`;
+roundOneMatches[5].innerHTML += `${fnatic}<p class="result">TBD</p>${wildcard}`;
+roundOneMatches[6].innerHTML += `${theMongolz}<p class="result">TBD</p>${rareAtom}`;
+roundOneMatches[7].innerHTML += `${pain}<p class="result">TBD</p>${imperial}`;
 
 for (i=0; i<roundTwoMatches.length; i++) {
     roundTwoMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;

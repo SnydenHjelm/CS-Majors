@@ -28,6 +28,8 @@ span {
 
 .all-matches img {
     height: 50px;
+    width: 50px;
+    object-fit: contain;
     justify-self: center;
     align-self: center;
 }
