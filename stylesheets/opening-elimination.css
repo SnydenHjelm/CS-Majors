@@ -24,6 +24,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: solid 1px var(--cs2-yellow);
+    gap: 2px;
 }
 
 .all-matches img {
@@ -74,8 +75,17 @@ span {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     background-color: var(--cs2-blue);
+    gap: 10px;
     height: 150px;
     border-radius: 10px;
     max-width: 800px;
     margin: 10px auto;
+}
+
+#qualied img {
+    height: 100px;
+    width: 70px;
+    object-fit: contain;
+    align-self: center;
+    justify-self: center;
 }

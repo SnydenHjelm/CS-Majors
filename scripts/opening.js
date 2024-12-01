@@ -3,6 +3,7 @@ const roundTwoMatches = document.querySelectorAll(".round-two-matches");
 const roundThreeMatches = document.querySelectorAll(".round-three-matches");
 const roundFourMatches = document.querySelectorAll(".round-four-matches");
 const roundFiveMatches = document.querySelectorAll(".round-five-matches");
+const qual = document.querySelector("#qualied");
 
 const tbd = `<img title="To be determined" src="images/question.png">`;
 const rareAtom = `<img title="Rare Atom" src="images/rare-atom.png">`;
@@ -40,19 +41,28 @@ roundTwoMatches[5].innerHTML += `${liquid}<p class="result">13-10</p>${wildcard}
 roundTwoMatches[6].innerHTML += `${imperial}<p class="result">11-13</p>${furia}`;
 roundTwoMatches[7].innerHTML += `${pain}<p class="result">10-13</p>${gamerLegion}`;
 
-roundThreeMatches[0].innerHTML += `${big}<p class="result">TBD</p>${virtusPro}`;
-roundThreeMatches[1].innerHTML += `${mibr}<p class="result">TBD</p>${passionUA}`;
-roundThreeMatches[2].innerHTML += `${furia}<p class="result">TBD</p>${wildcard}`;
-roundThreeMatches[3].innerHTML += `${pain}<p class="result">TBD</p>${cloud9}`;
-roundThreeMatches[4].innerHTML += `${rareAtom}<p class="result">TBD</p>${fnatic}`;
-roundThreeMatches[5].innerHTML += `${liquid}<p class="result">TBD</p>${flyQuest}`;
-roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">TBD</p>${gamerLegion}`;
-roundThreeMatches[7].innerHTML += `${complexity}<p class="result">TBD</p>${imperial}`;
+roundThreeMatches[0].innerHTML += `${big}<p class="result">13-11</p>${virtusPro}`;
+roundThreeMatches[1].innerHTML += `${mibr}<p class="result">5-13</p>${passionUA}`;
+roundThreeMatches[2].innerHTML += `${furia}<p class="result">16-14</p>${wildcard}`;
+roundThreeMatches[3].innerHTML += `${pain}<p class="result">13-11</p>${cloud9}`;
+roundThreeMatches[4].innerHTML += `${rareAtom}<p class="result">2-1</p>${fnatic}`;
+roundThreeMatches[5].innerHTML += `${liquid}<p class="result">2-1</p>${flyQuest}`;
+roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">2-0</p>${gamerLegion}`;
+roundThreeMatches[7].innerHTML += `${complexity}<p class="result">2-0</p>${imperial}`;
 
-for (i=0; i<roundFourMatches.length; i++) {
-    roundFourMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
-}
+roundFourMatches[0].innerHTML += `${rareAtom}<p class="result">TBD</p>${mibr}`;
+roundFourMatches[1].innerHTML += `${big}<p class="result">TBD</p>${furia}`;
+roundFourMatches[2].innerHTML += `${flyQuest}<p class="result">TBD</p>${pain}`;
+roundFourMatches[3].innerHTML += `${cloud9}<p class="result">TBD</p>${complexity}`;
+roundFourMatches[4].innerHTML += `${gamerLegion}<p class="result">TBD</p>${passionUA}`;
+roundFourMatches[5].innerHTML += `${wildcard}<p class="result">TBD</p>${virtusPro}`;
 
 for (i=0; i<roundFiveMatches.length; i++) {
     roundFiveMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
+}
+
+qual.innerHTML += liquid
+
+for (i=0; i<8-1; i++) {
+    qual.innerHTML += tbd;
 }
