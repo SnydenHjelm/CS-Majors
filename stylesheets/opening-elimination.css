@@ -71,6 +71,12 @@ span {
     margin: 10px auto;
 }
 
+.round-five-matches img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+
 #qualied {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -83,8 +89,8 @@ span {
 }
 
 #qualied img {
-    height: 100px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     object-fit: contain;
     align-self: center;
     justify-self: center;

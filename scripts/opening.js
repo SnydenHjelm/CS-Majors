@@ -50,19 +50,23 @@ roundThreeMatches[5].innerHTML += `${liquid}<p class="result">2-1</p>${flyQuest}
 roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">2-0</p>${gamerLegion}`;
 roundThreeMatches[7].innerHTML += `${complexity}<p class="result">2-0</p>${imperial}`;
 
-roundFourMatches[0].innerHTML += `${rareAtom}<p class="result">TBD</p>${mibr}`;
-roundFourMatches[1].innerHTML += `${big}<p class="result">TBD</p>${furia}`;
-roundFourMatches[2].innerHTML += `${flyQuest}<p class="result">TBD</p>${pain}`;
-roundFourMatches[3].innerHTML += `${cloud9}<p class="result">TBD</p>${complexity}`;
-roundFourMatches[4].innerHTML += `${gamerLegion}<p class="result">TBD</p>${passionUA}`;
-roundFourMatches[5].innerHTML += `${wildcard}<p class="result">TBD</p>${virtusPro}`;
+roundFourMatches[0].innerHTML += `${rareAtom}<p class="result">1-2</p>${mibr}`;
+roundFourMatches[1].innerHTML += `${big}<p class="result">1-2</p>${furia}`;
+roundFourMatches[2].innerHTML += `${flyQuest}<p class="result">0-2</p>${pain}`;
+roundFourMatches[3].innerHTML += `${cloud9}<p class="result">0-2</p>${complexity}`;
+roundFourMatches[4].innerHTML += `${gamerLegion}<p class="result">2-1</p>${passionUA}`;
+roundFourMatches[5].innerHTML += `${wildcard}<p class="result">2-1</p>${virtusPro}`;
 
-for (i=0; i<roundFiveMatches.length; i++) {
-    roundFiveMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
-}
+roundFiveMatches[0].innerHTML += `${big}<p class="result">TBD</p>${complexity}`;
+roundFiveMatches[1].innerHTML += `${mibr}<p class="result">TBD</p>${flyQuest}`;
+roundFiveMatches[2].innerHTML += `${wildcard}<p class="result">TBD</p>${passionUA}`;
 
-qual.innerHTML += liquid
+qual.innerHTML += liquid;
+qual.innerHTML += theMongolz;
+qual.innerHTML += furia;
+qual.innerHTML += pain;
+qual.innerHTML += gamerLegion;
 
-for (i=0; i<8-1; i++) {
+for (i=0; i<8-5; i++) {
     qual.innerHTML += tbd;
 }
