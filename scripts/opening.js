@@ -57,16 +57,15 @@ roundFourMatches[3].innerHTML += `${cloud9}<p class="result">0-2</p>${complexity
 roundFourMatches[4].innerHTML += `${gamerLegion}<p class="result">2-1</p>${passionUA}`;
 roundFourMatches[5].innerHTML += `${wildcard}<p class="result">2-1</p>${virtusPro}`;
 
-roundFiveMatches[0].innerHTML += `${big}<p class="result">TBD</p>${complexity}`;
-roundFiveMatches[1].innerHTML += `${mibr}<p class="result">TBD</p>${flyQuest}`;
-roundFiveMatches[2].innerHTML += `${wildcard}<p class="result">TBD</p>${passionUA}`;
+roundFiveMatches[0].innerHTML += `${big}<p class="result">2-1</p>${complexity}`;
+roundFiveMatches[1].innerHTML += `${mibr}<p class="result">2-0</p>${flyQuest}`;
+roundFiveMatches[2].innerHTML += `${wildcard}<p class="result">2-1</p>${passionUA}`;
 
 qual.innerHTML += liquid;
 qual.innerHTML += theMongolz;
 qual.innerHTML += furia;
 qual.innerHTML += pain;
 qual.innerHTML += gamerLegion;
-
-for (i=0; i<8-5; i++) {
-    qual.innerHTML += tbd;
-}
+qual.innerHTML += big;
+qual.innerHTML += mibr;
+qual.innerHTML += wildcard;
