@@ -4,7 +4,7 @@
     background-color: var(--cs2-blue);
     height: 200px;
     border-radius: 10px;
-    max-width: 1500px;
+    max-width: 1550px;
     margin: 10px auto;
 }
 
@@ -25,6 +25,7 @@ span {
     grid-template-columns: repeat(3, 1fr);
     border: solid 1px var(--cs2-yellow);
     gap: 2px;
+    padding: 5px;
 }
 
 .all-matches img {
@@ -47,7 +48,7 @@ span {
     background-color: var(--cs2-blue);
     height: 200px;
     border-radius: 10px;
-    max-width: 1500px;
+    max-width: 1550px;
     margin: 10px auto;
 }
 
@@ -57,7 +58,7 @@ span {
     background-color: var(--cs2-blue);
     height: 200px;
     border-radius: 10px;
-    max-width: 1500px;
+    max-width: 1550px;
     margin: 10px auto;
 }
 
@@ -67,7 +68,7 @@ span {
     background-color: var(--cs2-blue);
     height: 200px;
     border-radius: 10px;
-    max-width: 1500px;
+    max-width: 1550px;
     margin: 10px auto;
 }
 
