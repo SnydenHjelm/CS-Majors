@@ -3,6 +3,7 @@ const roundTwoMatches = document.querySelectorAll(".round-two-matches");
 const roundThreeMatches = document.querySelectorAll(".round-three-matches");
 const roundFourMatches = document.querySelectorAll(".round-four-matches");
 const roundFiveMatches = document.querySelectorAll(".round-five-matches");
+const qualied = document.querySelector("#qualied");
 
 const tbd = `<img title="To be determined" src="images/question.png">`;
 const mouz = `<img title="MOUZ" src="images/mouz.png">`;
@@ -40,19 +41,29 @@ roundTwoMatches[5].innerHTML += `${navi}<p class="result">11-13</p>${mibr}`;
 roundTwoMatches[6].innerHTML += `${threedmax}<p class="result">13-11</p>${pain}`; 
 roundTwoMatches[7].innerHTML += `${faze}<p class="result">8-13</p>${heroic}`; 
 
-roundThreeMatches[0].innerHTML += `${navi}<p class="result">TBD</p>${spirit}`; 
-roundThreeMatches[1].innerHTML += `${furia}<p class="result">TBD</p>${liquid}`; 
-roundThreeMatches[2].innerHTML += `${g2}<p class="result">TBD</p>${threedmax}`; 
-roundThreeMatches[3].innerHTML += `${mouz}<p class="result">TBD</p>${faze}`; 
-roundThreeMatches[4].innerHTML += `${gamerLegion}<p class="result">TBD</p>${wildcard}`; 
-roundThreeMatches[5].innerHTML += `${vitality}<p class="result">TBD</p>${mibr}`; 
-roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">TBD</p>${heroic}`; 
-roundThreeMatches[7].innerHTML += `${big}<p class="result">TBD</p>${pain}`; 
+roundThreeMatches[0].innerHTML += `${navi}<p class="result">2-13</p>${spirit}`; 
+roundThreeMatches[1].innerHTML += `${furia}<p class="result">9-13</p>${liquid}`; 
+roundThreeMatches[2].innerHTML += `${g2}<p class="result">13-8</p>${threedmax}`; 
+roundThreeMatches[3].innerHTML += `${mouz}<p class="result">10-13</p>${faze}`; 
+roundThreeMatches[4].innerHTML += `${gamerLegion}<p class="result">2-1</p>${wildcard}`; 
+roundThreeMatches[5].innerHTML += `${vitality}<p class="result">2-0</p>${mibr}`; 
+roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">2-1</p>${heroic}`; 
+roundThreeMatches[7].innerHTML += `${big}<p class="result">1-2</p>${pain}`; 
 
-for (i=0; i<roundFourMatches.length; i++) {
-    roundFourMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
-}
+roundFourMatches[0].innerHTML += `${mouz}<p class="result">TBD</p>${threedmax}`; 
+roundFourMatches[1].innerHTML += `${g2}<p class="result">TBD</p>${faze}`; 
+roundFourMatches[2].innerHTML += `${mibr}<p class="result">TBD</p>${liquid}`; 
+roundFourMatches[3].innerHTML += `${navi}<p class="result">TBD</p>${gamerLegion}`; 
+roundFourMatches[4].innerHTML += `${spirit}<p class="result">TBD</p>${heroic}`; 
+roundFourMatches[5].innerHTML += `${furia}<p class="result">TBD</p>${pain}`; 
 
 for (i=0; i<roundFiveMatches.length; i++) {
     roundFiveMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
+}
+
+qualied.innerHTML += vitality;
+qualied.innerHTML += theMongolz;
+
+for (i=0; i<8-2; i++) {
+    qualied.innerHTML += tbd;
 }
