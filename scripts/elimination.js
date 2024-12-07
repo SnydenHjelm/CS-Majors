@@ -50,16 +50,16 @@ roundThreeMatches[5].innerHTML += `${vitality}<p class="result">2-0</p>${mibr}`;
 roundThreeMatches[6].innerHTML += `${theMongolz}<p class="result">2-1</p>${heroic}`; 
 roundThreeMatches[7].innerHTML += `${big}<p class="result">1-2</p>${pain}`; 
 
-roundFourMatches[0].innerHTML += `${mouz}<p class="result">TBD</p>${threedmax}`; 
-roundFourMatches[1].innerHTML += `${g2}<p class="result">TBD</p>${faze}`; 
-roundFourMatches[2].innerHTML += `${mibr}<p class="result">TBD</p>${liquid}`; 
-roundFourMatches[3].innerHTML += `${navi}<p class="result">TBD</p>${gamerLegion}`; 
-roundFourMatches[4].innerHTML += `${spirit}<p class="result">TBD</p>${heroic}`; 
-roundFourMatches[5].innerHTML += `${furia}<p class="result">TBD</p>${pain}`; 
+roundFourMatches[0].innerHTML += `${mouz}<p class="result">2-0</p>${threedmax}`; 
+roundFourMatches[1].innerHTML += `${g2}<p class="result">2-0</p>${faze}`; 
+roundFourMatches[2].innerHTML += `${mibr}<p class="result">1-2</p>${liquid}`; 
+roundFourMatches[3].innerHTML += `${navi}<p class="result">2-0</p>${gamerLegion}`; 
+roundFourMatches[4].innerHTML += `${spirit}<p class="result">2-1</p>${heroic}`; 
+roundFourMatches[5].innerHTML += `${furia}<p class="result">2-1</p>${pain}`; 
 
-for (i=0; i<roundFiveMatches.length; i++) {
-    roundFiveMatches[i].innerHTML += `${tbd}<p class="result">TBD</p>${tbd}`;
-}
+roundFiveMatches[0].innerHTML += `${mibr}<p class="result">TBD</p>${mouz}`; 
+roundFiveMatches[1].innerHTML += `${heroic}<p class="result">TBD</p>${navi}`; 
+roundFiveMatches[2].innerHTML += `${faze}<p class="result">TBD</p>${furia}`; 
 
 qualied.innerHTML += vitality;
 qualied.innerHTML += theMongolz;
