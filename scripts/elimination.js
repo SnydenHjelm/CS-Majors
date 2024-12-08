@@ -57,13 +57,15 @@ roundFourMatches[3].innerHTML += `${navi}<p class="result">2-0</p>${gamerLegion}
 roundFourMatches[4].innerHTML += `${spirit}<p class="result">2-1</p>${heroic}`; 
 roundFourMatches[5].innerHTML += `${furia}<p class="result">2-1</p>${pain}`; 
 
-roundFiveMatches[0].innerHTML += `${mibr}<p class="result">TBD</p>${mouz}`; 
-roundFiveMatches[1].innerHTML += `${heroic}<p class="result">TBD</p>${navi}`; 
-roundFiveMatches[2].innerHTML += `${faze}<p class="result">TBD</p>${furia}`; 
+roundFiveMatches[0].innerHTML += `${mibr}<p class="result">0-2</p>${mouz}`; 
+roundFiveMatches[1].innerHTML += `${heroic}<p class="result">2-1</p>${navi}`; 
+roundFiveMatches[2].innerHTML += `${faze}<p class="result">2-1</p>${furia}`; 
 
 qualied.innerHTML += vitality;
 qualied.innerHTML += theMongolz;
-
-for (i=0; i<8-2; i++) {
-    qualied.innerHTML += tbd;
-}
+qualied.innerHTML += g2;
+qualied.innerHTML += liquid;
+qualied.innerHTML += spirit;
+qualied.innerHTML += mouz;
+qualied.innerHTML += heroic;
+qualied.innerHTML += faze;
