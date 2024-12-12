@@ -23,12 +23,12 @@ const spirit = `<img title="Team Spirit" src="images/spirit.png">`;
 const theMongolz = `<img title="The MongolZ" src="images/mongolz.png">`;
 const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
 
-qFinalOne.innerHTML += theMongolz + "<h3>TBD</h3>" + mouz;
-qFinalTwo.innerHTML += spirit + "<h3>TBD</h3>" + liquid;
+qFinalOne.innerHTML += theMongolz + "<h3>0-2</h3>" + mouz;
+qFinalTwo.innerHTML += spirit + "<h3>2-0</h3>" + liquid;
 qFinalThree.innerHTML += g2 + "<h3>TBD</h3>" + heroic;
 qFinalFour.innerHTML += faze + "<h3>TBD</h3>" + vitality;
 
-sFinalOne.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
+sFinalOne.innerHTML += mouz + "<h3>TBD</h3>" + spirit;
 sFinalTwo.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
 
 gFinal.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
