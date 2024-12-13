@@ -25,11 +25,11 @@ const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
 
 qFinalOne.innerHTML += theMongolz + "<h3>0-2</h3>" + mouz;
 qFinalTwo.innerHTML += spirit + "<h3>2-0</h3>" + liquid;
-qFinalThree.innerHTML += g2 + "<h3>TBD</h3>" + heroic;
-qFinalFour.innerHTML += faze + "<h3>TBD</h3>" + vitality;
+qFinalThree.innerHTML += g2 + "<h3>2-1</h3>" + heroic;
+qFinalFour.innerHTML += faze + "<h3>2-1</h3>" + vitality;
 
 sFinalOne.innerHTML += mouz + "<h3>TBD</h3>" + spirit;
-sFinalTwo.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
+sFinalTwo.innerHTML += g2 + "<h3>TBD</h3>" + faze;
 
 gFinal.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
 
