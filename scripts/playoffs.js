@@ -28,10 +28,10 @@ qFinalTwo.innerHTML += spirit + "<h3>2-0</h3>" + liquid;
 qFinalThree.innerHTML += g2 + "<h3>2-1</h3>" + heroic;
 qFinalFour.innerHTML += faze + "<h3>2-1</h3>" + vitality;
 
-sFinalOne.innerHTML += mouz + "<h3>TBD</h3>" + spirit;
-sFinalTwo.innerHTML += g2 + "<h3>TBD</h3>" + faze;
+sFinalOne.innerHTML += mouz + "<h3>1-2</h3>" + spirit;
+sFinalTwo.innerHTML += g2 + "<h3>0-2</h3>" + faze;
 
-gFinal.innerHTML += tbd + "<h3>TBD</h3>" + tbd;
+gFinal.innerHTML += spirit + "<h3>TBD</h3>" + faze;
 
 champ.innerHTML += trophy + tbd + "<h3>TBD</h3>";
 mvp.innerHTML += mvpMedal + tbd + `<h3>TBD "TBD" TBD</h3>`;
