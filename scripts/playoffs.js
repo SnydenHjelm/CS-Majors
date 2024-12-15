@@ -22,6 +22,7 @@ const g2 = `<img title="G2 Esports" src="images/g2.png">`;
 const spirit = `<img title="Team Spirit" src="images/spirit.png">`;
 const theMongolz = `<img title="The MongolZ" src="images/mongolz.png">`;
 const liquid = `<img title="Team Liquid" src="images/liquid.png">`;
+const donk = `<img title="donk" src="images/donkhead.png">`;
 
 qFinalOne.innerHTML += theMongolz + "<h3>0-2</h3>" + mouz;
 qFinalTwo.innerHTML += spirit + "<h3>2-0</h3>" + liquid;
@@ -31,7 +32,7 @@ qFinalFour.innerHTML += faze + "<h3>2-1</h3>" + vitality;
 sFinalOne.innerHTML += mouz + "<h3>1-2</h3>" + spirit;
 sFinalTwo.innerHTML += g2 + "<h3>0-2</h3>" + faze;
 
-gFinal.innerHTML += spirit + "<h3>TBD</h3>" + faze;
+gFinal.innerHTML += spirit + "<h3>2-1</h3>" + faze;
 
-champ.innerHTML += trophy + tbd + "<h3>TBD</h3>";
-mvp.innerHTML += mvpMedal + tbd + `<h3>TBD "TBD" TBD</h3>`;
+champ.innerHTML += trophy + spirit + "<h3>Team Spirit</h3>";
+mvp.innerHTML += mvpMedal + donk + `<h3>Danil "donk" Kryshkovets</h3>`;

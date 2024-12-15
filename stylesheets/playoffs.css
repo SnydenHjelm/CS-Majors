@@ -93,7 +93,14 @@ h2 {
     justify-self: center;
     align-self: center;
     font-family: Bread;
-    font-size: 23px;
     margin: 0;
     color: var(--cs2-yellow);
+}
+
+#mvp h3 {
+    font-size: 20px;
+}
+
+#champ h3 {
+    font-size: 25px;
 }
